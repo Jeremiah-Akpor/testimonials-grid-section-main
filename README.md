@@ -34,13 +34,6 @@ Five graduate testimonials arranged in a single column on mobile and a four-colu
 - How to separate page-level centering from the inner testimonial grid.
 - How to share a color palette through CSS custom properties while giving individual cards distinct styles.
 
-## Run locally
-
-This is a static HTML/CSS site with no build step. Open `index.html` in a browser or serve the folder with a local web server.
-
-## Deployment
-
-After pushing the repository to GitHub, open **Settings → Pages** and configure **Deploy from a branch → main → / (root)**. Once publishing finishes, verify that `index.html`, `style.css`, and `tokens.css` all load on the live site.
 
 ## Author
 
