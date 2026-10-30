@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+body {
+    background-color: var(--color-page-bg);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: clamp(0.813rem, 2.5vw, 1rem);
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-block: 3.125rem;
+    padding-inline: 1.563rem;
+
+
+    .comment {
+        padding: 1.7rem;
+        border-radius: 0.6rem;
+        box-shadow: 0 0.1rem 1.25rem rgba(0, 0, 0, 0.20);
+        margin-block-end: 1.5rem;
+
+    }
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    img {
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        object-fit: cover;
+    }
+
+    .name {
+        margin-block-end: 0;
+        font-weight: 700;
+    }
+
+    .status {
+        margin-block-start: 0.2rem;
+        font-size: clamp(0.65rem, 2.5vw, 0.688rem);
+
+    }
+
+}
+
+.comment-title {
+    margin-block-start: 0;
+    font-size: 1.063rem;
+
+}
+
+.comment-daniel {
+    background-color: var(--color-bg-daniel);
+    color: var(--color-text-daniel);
+
+    img {
+        border: 2px solid var(--color-muted-daniel);
+    }
+
+    .comment-title {
+        color: var(--color-heading-daniel);
+    }
+
+}
+
+.comment-jonathan {
+    background-color: var(--color-bg-jonathan);
+    color: var(--color-text-jonathan);
+
+    .status {
+        color: var(--grey-200);
+    }
+
+    .comment-title {
+        color: var(--color-heading-jonathan);
+    }
+}
+
+.comment-jeanette {
+    background-color: var(--color-bg-jeanette);
+    color: var(--color-text-jeanette);
+
+    .status {
+        color: var(--color-muted-jeanette);
+    }
+
+    .comment-title {
+        color: var(--color-heading-jeanette);
+    }
+}
+
+.comment-patrick {
+    background-color: var(--color-bg-patrick);
+    color: var(--color-text-patrick);
+
+    img {
+        border: 2px solid var(--purple-500);
+    }
+
+    .status {
+        color: var(--color-muted-patrick);
+    }
+
+    .comment-title {
+        color: var(--color-heading-patrick);
+    }
+}
+
+.comment-kira {
+    background-color: var(--color-bg-kira);
+    color: var(--color-text-kira);
+
+    .status {
+        color: var(--color-muted-kira);
+    }
+
+    .comment-title {
+        color: var(--color-heading-kira);
+    }
+}
+
+
+@media (min-width: 52rem) {
+
+    main {
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 89vh;
+    }
+
+    .testimonials-grid {
+
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        max-width: 70rem;
+
+
+    }
+
+    .comment-daniel {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    .comment-jonathan {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .comment-jeanette {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .comment-patrick {
+        grid-column: 2 / span 2;
+        grid-row: 2;
+    }
+
+    .comment-kira {
+        grid-column: 4;
+        grid-row: 1 / span 2;
+    }
+
+    .comment {
+        margin-block-end: 0;
+    }
+}

@@ -1,0 +1,46 @@
+:root {
+  /* Challenge palette (style-guide.md) */
+  --purple-50: hsl(260, 100%, 95%);
+  --purple-300: hsl(264, 82%, 80%);
+  --purple-500: hsl(263, 55%, 52%);
+  --white: hsl(0, 0%, 100%);
+  --grey-100: hsl(214, 17%, 92%);
+  --grey-200: hsl(0, 0%, 81%);
+  --grey-400: hsl(224, 10%, 45%);
+  --grey-500: hsl(217, 19%, 35%);
+  --dark-blue: hsl(219, 29%, 14%);
+  --black: hsl(0, 0%, 7%);
+
+  /* Page */
+  --color-page-bg: var(--grey-100);
+
+  /* Daniel: purple card */
+  --color-bg-daniel: var(--purple-500);
+  --color-heading-daniel: var(--white);
+  --color-text-daniel: var(--purple-50);
+  --color-muted-daniel: var(--purple-300);
+
+  /* Jonathan: slate-grey card */
+  --color-bg-jonathan: var(--grey-500);
+  --color-heading-jonathan: var(--white);
+  --color-text-jonathan: var(--grey-100);
+  --color-muted-jonathan: var(--grey-200);
+
+  /* Jeanette: white card */
+  --color-bg-jeanette: var(--white);
+  --color-heading-jeanette: var(--grey-500);
+  --color-text-jeanette: var(--grey-400);
+  --color-muted-jeanette: var(--grey-400);
+
+  /* Patrick: dark-blue card */
+  --color-bg-patrick: var(--dark-blue);
+  --color-heading-patrick: var(--white);
+  --color-text-patrick: var(--grey-200);
+  --color-muted-patrick: var(--grey-200);
+
+  /* Kira: white card */
+  --color-bg-kira: var(--white);
+  --color-heading-kira: var(--grey-500);
+  --color-text-kira: var(--grey-400);
+  --color-muted-kira: var(--grey-400);
+}
