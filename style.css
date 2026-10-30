@@ -57,6 +57,9 @@ main {
 .comment-daniel {
     background-color: var(--color-bg-daniel);
     color: var(--color-text-daniel);
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 2rem;
 
     img {
         border: 2px solid var(--color-muted-daniel);
